@@ -1,5 +1,13 @@
 # General Test Concept for SW development projects
 
+Table of Content
+
+1. [Good Unit Tests as Foundation](#Good-Unit-Tests-as-Foundation)
+    - [Maturity levels of unit testing](#Maturity-levels-of-unit-testing)
+2. [Service Tests](#Service-Tests)
+3. [UI Tests](#UI-Tests)
+4. [Behavior Driven Development](#Behavior-Driven-Development)
+
 > How much effort to put into automated software tests? 
 
 > Answer: Follow the Testing Pyramid!
@@ -7,7 +15,7 @@
 ![Testing Pyramid](pics/testing_pyramid.png "Testing Pyrami")
 
 
-## Foundation - Solid/Good Unit Tests
+## Good Unit Tests as Foundation
 - Unit tests are fast and cheap compared to Service/UI tests – so do a lot of them!
 - Test the behavior of the unit, not the execution of lines!
 - Recommendation for better unit tests is **Test-Driven-Development**
@@ -42,20 +50,20 @@
         - Not all the time you must do TDD. When you do this most of the time (80-90%), it’s great!
 
 
-## Service / Integration Tests
+## Service Tests
 - Testing of APIs/microservices (incl. DB)
     - testing all microservice without UI (API based testing)
     - also a single microservice can be tested here (Component test)
 - Testing the key functionality should be done here or on Unit Test level, NOT in UI tests !!!
 
-## UI-Tests
+## UI Tests
 - Most expensive and slowest (slow in execution and writing) tests
 - Only a few (most important functions) should be tested
 - Functionality under test should not change very frequently
 - Use state-of-the-art test frameworks for UI testing (something like Cypress…)
 - UI-tests can also be executed MANUALLY but be careful (very costly, time-consuming and unreliable)
 
-## Behavior Driven Development (BDD)
+## Behavior Driven Development
 - Recommendation for better testing and better communication between Devs and Business can be achieved by **Behavior Driven Development** (BDD)
     - BDD enables business team and devs to create their own test language
     - By this test language, the devs can then implement the tests
