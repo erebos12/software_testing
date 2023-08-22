@@ -57,10 +57,12 @@ Table of Content
 - Testing the key functionality should be done here or on Unit Test level, NOT in UI tests !!!
 
 ## UI Tests
+- End-2-End tests which test the entire system (**Automated System Test**)
+    - simulates user behaviour on UI
 - Most expensive and slowest (slow in execution and writing) tests
 - Only a few (most important functions) should be tested
 - Functionality under test should not change very frequently
-- Use state-of-the-art test frameworks for UI testing (something like Cypress…)
+- Use state-of-the-art test frameworks for UI testing (something like Playwright, Cypress, Selenium etc.)
 - UI-tests can also be executed MANUALLY but be careful (very costly, time-consuming and unreliable)
 - Think about cross-browser testing and responsive behaviour (web/mobile apps)
     - Something like [Browser Stack](https://www.browserstack.com/?utm_source=google&utm_medium=cpc&utm_platform=paidads&utm_content=668760067900&utm_campaign=Search-Brand-EMEA-Navigational&utm_campaigncode=Core+1004615&utm_term=e+browser%20stack) could help
