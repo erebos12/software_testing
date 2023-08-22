@@ -44,11 +44,9 @@
 
 ## Service / Integration Tests
 - Testing of APIs/microservices (incl. DB)
-- Testing the key functionality should be done here, NOT in UI tests
-- Recommendation for better testing and better communication between Devs and Business can be achieved by **Behavior Driven Development** (BDD)
-    - BDD enables business team and devs to create their own test language
-    - By this test language, the devs can then implement the tests
-
+    - testing all microservice without UI (API based testing)
+    - also a single microservice can be tested here (Component test)
+- Testing the key functionality should be done here or on Unit Test level, NOT in UI tests !!!
 
 ## UI-Tests
 - Most expensive and slowest (slow in execution and writing) tests
@@ -57,3 +55,8 @@
 - Use state-of-the-art test frameworks for UI testing (something like Cypress…)
 - UI-tests can also be executed MANUALLY but be careful (very costly, time-consuming and unreliable)
 
+## Behavior Driven Development (BDD)
+- Recommendation for better testing and better communication between Devs and Business can be achieved by **Behavior Driven Development** (BDD)
+    - BDD enables business team and devs to create their own test language
+    - By this test language, the devs can then implement the tests
+- In theory you can apply BDD on every level of the test pyramid. In my experience on unit testing level it puts more overhead to testing. That's why I'd apply it in Service/Integration test level or UI testing level.
