@@ -60,6 +60,7 @@ Table of Content
 - End-2-End tests which test the entire system (**Automated System Test**)
     - simulates user behaviour on UI
 - Most expensive and slowest (slow in execution and writing) tests
+    - very often flaky (unreliable) - see [Flaky Tests at Google and How We Mitigate Them](https://testing.googleblog.com/2016/05/flaky-tests-at-google-and-how-we.html)
 - Only a few (most important functions) should be tested
 - Functionality under test should not change very frequently
 - Use state-of-the-art test frameworks for UI testing (something like Playwright, Cypress, Selenium etc.)
