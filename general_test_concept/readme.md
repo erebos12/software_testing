@@ -10,7 +10,7 @@
 ## Foundation - Solid/Good Unit Tests
 - Unit tests are fast and cheap compared to Service/UI tests – so do a lot of them!
 - Test the behavior of the unit, not the execution of lines!
-- Recommendation for better unit tests is Test-Driven-Development
+- Recommendation for better unit tests is **Test-Driven-Development**
     - First write the test, then the production code and then refactor
     - Better interfaces, better tested code and safer maintainability later
     - See https://www.codica.com/blog/test-driven-development-benefits/
@@ -40,7 +40,7 @@
     - CI/CD build fails when tests are failing or code coverage percentage is not achieved
 - Level 3:
     - Level 2 + 
-    - apply actively Test-Driven-Development (TDD) in the development team (partially or entirely in the team)
+    - apply actively **Test-Driven-Development** (TDD) in the development team (partially or entirely in the team)
     - In case partially: You try to establish TDD for all developer in future!
     - Not all the time you must do TDD. When you do this most of the time (80-90%), it’s great!
 
@@ -48,7 +48,7 @@
 ## Service / Integration Tests
 - Testing of APIs/microservices (incl. DB)
 - Testing the key functionality should be done here, NOT in UI tests
-- Recommendation for better testing and better communication between Devs and Business can be achieved by Behavior Driven Development (BDD)
+- Recommendation for better testing and better communication between Devs and Business can be achieved by **Behavior Driven Development** (BDD)
     - BDD enables business team and devs to create their own test language
     - By this test language, the devs can then implement the tests
 
