@@ -4,6 +4,7 @@ Table of Content
 
 1. [Good Unit Tests as Foundation](#Good-Unit-Tests-as-Foundation)
     - [Maturity levels of unit testing](#Maturity-levels-of-unit-testing)
+    - [Unit Test Best Practices](#Unit-Test-Best-Practices)
 2. [Service Tests](#Service-Tests)
 3. [UI Tests](#UI-Tests)
 4. [Behavior Driven Development](#Behavior-Driven-Development)
@@ -49,6 +50,11 @@ Table of Content
         - In case partially: You try to establish TDD for all developer in future!
         - Not all the time you must do TDD. When you do this most of the time (80-90%), it’s great!
 
+### Unit Test Best Practices
+
+You don’t know the best practices for unit testing, then watch these videos: 
+- [Effective Unit Testing by Eliotte Rusty Harold](https://www.youtube.com/watch?v=fr1E9aVnBxw)
+- [Your Unit Tests are Trying To Tell You Something by Victor Rentea](https://youtu.be/1-Aw-sRfqsQ)
 
 ## Service Tests
 - Testing of APIs/microservices (incl. DB)
