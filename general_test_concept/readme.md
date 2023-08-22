@@ -28,21 +28,18 @@
 ### Maturity levels of unit testing
 - Level 0:
     - no unit tests at all (RED FLAG)
-    - Manual Testing after development!
+    - Only Manual Testing after development!
 - Level 1:
     - Level 0 +
     - unit tests + 
-    - line code coverage percentage defined in the development team (i.e. 80%)
-    - No execution of unit tests in the CI/CD pipeline
-- Level 2: 
-    - Level 1 +
-    - Execution of unit tests in the CI/CD pipeline for every build
+    - line code coverage percentage defined in the development team (i.e. 80%) +
+    - Execution of unit tests in the CI/CD pipeline for every build +
     - CI/CD build fails when tests are failing or code coverage percentage is not achieved
-- Level 3:
-    - Level 2 + 
+- Level 2:
+    - Level 1 + 
     - apply actively **Test-Driven-Development** (TDD) in the development team (partially or entirely in the team)
-    - In case partially: You try to establish TDD for all developer in future!
-    - Not all the time you must do TDD. When you do this most of the time (80-90%), it’s great!
+        - In case partially: You try to establish TDD for all developer in future!
+        - Not all the time you must do TDD. When you do this most of the time (80-90%), it’s great!
 
 
 ## Service / Integration Tests
