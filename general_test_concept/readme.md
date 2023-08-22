@@ -62,6 +62,8 @@ Table of Content
 - Functionality under test should not change very frequently
 - Use state-of-the-art test frameworks for UI testing (something like Cypress…)
 - UI-tests can also be executed MANUALLY but be careful (very costly, time-consuming and unreliable)
+- Think about cross-browser testing and responsive behaviour (web/mobile apps)
+    - Something like [Browser Stack](https://www.browserstack.com/?utm_source=google&utm_medium=cpc&utm_platform=paidads&utm_content=668760067900&utm_campaign=Search-Brand-EMEA-Navigational&utm_campaigncode=Core+1004615&utm_term=e+browser%20stack) could help
 
 ## Behavior Driven Development
 - Recommendation for better testing and better communication between Devs and Business can be achieved by **Behavior Driven Development** (BDD)
