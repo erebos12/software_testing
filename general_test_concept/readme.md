@@ -8,6 +8,7 @@ Table of Content
 2. [Service Tests](#Service-Tests)
 3. [UI Tests](#UI-Tests)
 4. [Behavior Driven Development](#Behavior-Driven-Development)
+4. [Quotes on Software Testing](#Quotes-on-Software-Testing)
 
 > How much effort to put into automated software tests? 
 
@@ -79,3 +80,12 @@ You don’t know the best practices for unit testing, then watch these videos:
     - BDD enables business team and devs to create their own test language
     - By this test language, the devs can then implement the tests
 - In theory you can apply BDD on every level of the test pyramid. In my experience on unit testing level it puts more overhead to testing. That's why I'd apply it in Service/Integration test level or UI testing level.
+
+## Quotes on Software Testing
+
+- Design to Test
+- Test your Software, or your users will
+- Coding Ain't Done 'Til All the Tests Run
+- Test Early. Test Often. Test Automatically.
+- Test your Estimates
+- Test State Coverage, Not Code Coverage
