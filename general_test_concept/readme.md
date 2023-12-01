@@ -23,7 +23,7 @@ Table of Content
 - The tests becomes the first cosnumer of your code ! So focus on the public interface of your unit/module, not the internals !
 - Recommendation for better unit tests is **Test-Driven-Development**
     - First write the test, then the production code and then refactor
-    - Better interfaces, better tested code and safer maintainability later
+    - The unit under test should have only one public/exposed interface (libraries are exceptions). Respect information hiding and abstraction! 
     - See https://www.codica.com/blog/test-driven-development-benefits/
 - Test coverage should also be used i.e. at least 80% line coverage
     
