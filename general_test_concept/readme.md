@@ -25,6 +25,7 @@ Table of Content
     - First write the test, then the production code and then refactor
     - The unit under test should have only one public/exposed interface (libraries are exceptions). Respect information hiding and abstraction when writing the test / designing your public interface !
     - You don't just write a test, you design a public interface for your unit under test !
+    - Doing "RED-GREEN-REFACTOR" pattern !
     - See https://www.codica.com/blog/test-driven-development-benefits/
 - Test coverage should also be used i.e. at least 80% line coverage
     
