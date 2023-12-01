@@ -19,8 +19,8 @@ Table of Content
 
 ## Good Unit Tests as Foundation
 - Unit tests are fast and cheap compared to Service/UI tests – so do a lot of them!
-- Test the behavior of the unit, not the execution of lines!
-- The tests becomes the first cosnumer of yoour code !
+- Test the behavior of the unit/module, not the execution of lines!
+- The tests becomes the first cosnumer of your code ! So focus on the public interface of your unit/module, not the internals !
 - Recommendation for better unit tests is **Test-Driven-Development**
     - First write the test, then the production code and then refactor
     - Better interfaces, better tested code and safer maintainability later
