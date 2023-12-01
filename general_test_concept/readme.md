@@ -26,7 +26,7 @@ Table of Content
     - See https://www.codica.com/blog/test-driven-development-benefits/
 - Some best practices on TDD:
     - The unit under test should have only one public/exposed interface (libraries are exceptions). Respect information hiding and abstraction when writing the test / designing your public interface !
-    - You don't just write a test, you design a public interface for your unit under test !
+    - You don't just write a test, you design a public interface for your unit under test ! Keep a thin public API !
     - Tests should have as less dependecies as possible. Meaning also less mocking because what you mock is a dependency.
       
 - Test coverage could also be used i.e. at least 80% line coverage
