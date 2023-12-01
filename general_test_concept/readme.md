@@ -28,6 +28,7 @@ Table of Content
     - The unit under test should have only one public/exposed interface (libraries are exceptions). Respect information hiding and abstraction when writing the test / designing your public interface !
     - You don't just write a test, you design a public interface for your unit under test ! Keep a thin public API !
     - Tests should have as less dependecies as possible. Meaning also less mocking because what you mock is a dependency.
+    - Changing the public interface of your unit under test, is NOT refactoring ! In refactoring phase, only internals should be changed.
       
 - Test coverage could also be used i.e. at least 80% line coverage
     
