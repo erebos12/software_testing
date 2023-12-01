@@ -29,7 +29,7 @@ Table of Content
     - You don't just write a test, you design a public interface for your unit under test !
     - Tests should have as less dependecies as possible. Meaning also less mocking because what you mock is a dependency.
       
-- Test coverage should also be used i.e. at least 80% line coverage
+- Test coverage could also be used i.e. at least 80% line coverage
     
     > ATTENTION: Don’t fall into the trap, "The higher the code coverage, the better the tests."! This number must be treated carefully. Test behavior, not lines of code!
 
