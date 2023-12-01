@@ -22,11 +22,13 @@ Table of Content
 - Test the behavior of the unit/module, not the execution of lines!
 - The tests becomes the first cosnumer of your code ! So focus on the public interface of your unit/module, not the internals !
 - Recommendation for better unit tests is **Test-Driven-Development**
-    - First write the test, then the production code and then refactor
+    - First write the test, then the production code and then refactor - "RED-GREEN-REFACTOR" pattern
+    - See https://www.codica.com/blog/test-driven-development-benefits/
+- Some best practices on TDD:
     - The unit under test should have only one public/exposed interface (libraries are exceptions). Respect information hiding and abstraction when writing the test / designing your public interface !
     - You don't just write a test, you design a public interface for your unit under test !
-    - Doing "RED-GREEN-REFACTOR" pattern !
-    - See https://www.codica.com/blog/test-driven-development-benefits/
+    - Tests should have as less dependecies as possible. Meaning also less mocking because what you mock is a dependency.
+      
 - Test coverage should also be used i.e. at least 80% line coverage
     
     > ATTENTION: Don’t fall into the trap, "The higher the code coverage, the better the tests."! This number must be treated carefully. Test behavior, not lines of code!
