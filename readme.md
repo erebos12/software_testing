@@ -21,7 +21,8 @@ Table of Content
 
 - Unit tests are fast and cheap compared to Service/UI tests – so do a lot of them!
 - Test the behavior of the unit/module, not the execution of lines! **TEST BEHAVIORS NOT IMPLEMENTATIONS**
-- Use Test-Driven-Development (TDD) - see
+- Use Test-Driven-Development (TDD) - see [test-driven-development]
+  (#test-driven-development)
 - Remember: The tests becomes the first consumer of your code !
 
 - Test coverage could also be used i.e. at least 80% line coverage
