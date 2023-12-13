@@ -79,14 +79,14 @@ You don’t know the best practices for unit testing, then watch these videos:
 - Think about cross-browser testing and responsive behaviour (web/mobile apps)
   - Something like [Browser Stack](https://www.browserstack.com/?utm_source=google&utm_medium=cpc&utm_platform=paidads&utm_content=668760067900&utm_campaign=Search-Brand-EMEA-Navigational&utm_campaigncode=Core+1004615&utm_term=e+browser%20stack) could help
 
-## Behavior Driven Development (BDD)
+## Behavior Driven Development
 
 - Recommendation for better testing and better communication between Devs and Business can be achieved by **Behavior Driven Development** (BDD)
   - BDD enables business team and devs to create their own test language
   - By this test language, the devs can then implement the tests
 - In theory you can apply BDD on every level of the test pyramid. In my experience on unit testing level it puts more overhead to testing. That's why I'd apply it in Service/Integration test level or UI testing level.
 
-## Test Driven Development (TDD)
+## Test Driven Development
 
 ### What is meant by TDD ?
 
