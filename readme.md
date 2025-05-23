@@ -120,3 +120,4 @@ Common Misunderstandings:
 - Test Early. Test Often. Test Automatically.
 - Test your Estimates
 - Test State Coverage, Not Code Coverage
+- Test Smart, not obsessive.
